@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\GiftBoxy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|solutionrelative:giftboxy.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|solutionrelative:giftboxy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.api\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|solutionrelative:giftboxy.api\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.api\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|solutionrelative:giftboxy.api\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|solutionrelative:giftboxy.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.api\\giftboxy.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -22,37 +30,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "GiftBoxy.API\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "GiftBoxy.API\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowFcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T17:55:38.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "GiftBoxy.API\\Controllers\\ChatController.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T17:55:26.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\appsettings.json",
               "RelativeDocumentMoniker": "GiftBoxy.API\\appsettings.json",
               "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\appsettings.json",
               "RelativeToolTip": "GiftBoxy.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-05-17T17:37:04.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Program.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Program.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Program.cs",
               "RelativeToolTip": "GiftBoxy.API\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAAAMQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-17T17:34:07.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GiftBoxy.API.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\GiftBoxy.API.csproj",
               "RelativeDocumentMoniker": "GiftBoxy.API\\GiftBoxy.API.csproj",
