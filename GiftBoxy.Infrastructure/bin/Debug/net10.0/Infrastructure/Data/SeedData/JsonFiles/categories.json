@@ -1,0 +1,62 @@
+﻿[
+  {
+    "Name": "Personalized Gifts",
+    "Slug": "personalized",
+    "Icon": "✨"
+  },
+  {
+    "Name": "Home & Living",
+    "Slug": "home",
+    "Icon": "🏠"
+  },
+  {
+    "Name": "For Her",
+    "Slug": "for-her",
+    "Icon": "🌸"
+  },
+  {
+    "Name": "For Him",
+    "Slug": "for-him",
+    "Icon": "🎁"
+  },
+  {
+    "Name": "Jewelry & Accessories",
+    "Slug": "jewelry",
+    "Icon": "💍"
+  },
+  {
+    "Name": "Art & Prints",
+    "Slug": "art",
+    "Icon": "🖼️"
+  },
+  {
+    "Name": "Wellness",
+    "Slug": "wellness",
+    "Icon": "🛁"
+  },
+  {
+    "Name": "Kids & Baby",
+    "Slug": "kids",
+    "Icon": "🧸"
+  },
+  {
+    "Name": "Food & Treats",
+    "Slug": "food",
+    "Icon": "🍫"
+  },
+  {
+    "Name": "Vintage",
+    "Slug": "vintage",
+    "Icon": "🕰️"
+  },
+  {
+    "Name": "Office Gifts",
+    "Slug": "office",
+    "Icon": "💼"
+  },
+  {
+    "Name": "Gift Boxes",
+    "Slug": "gift-boxes",
+    "Icon": "📦"
+  }
+]

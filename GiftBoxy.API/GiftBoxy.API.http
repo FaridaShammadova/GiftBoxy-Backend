@@ -1,0 +1,6 @@
+@GiftBoxy.API_HostAddress = http://localhost:5236
+
+GET {{GiftBoxy.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="GiftBoxy.API/GiftBoxy.API.csproj" />
+  <Project Path="GiftBoxy.Application/GiftBoxy.Application.csproj" />
+  <Project Path="GiftBoxy.Domain/GiftBoxy.Domain.csproj" />
+  <Project Path="GiftBoxy.Infrastructure/GiftBoxy.Infrastructure.csproj" />
+</Solution>

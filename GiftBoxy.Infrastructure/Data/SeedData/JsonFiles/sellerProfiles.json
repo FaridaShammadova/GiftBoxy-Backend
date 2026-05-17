@@ -1,0 +1,32 @@
+﻿[
+  {
+    "StoreName": "Luna Crafts",
+    "AvatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+    "Rating": 4.9,
+    "TotalSales": 1240,
+    "Followers": 2300,
+    "Location": "Portland, USA",
+    "Bio": "Handmade luxury gifts, keepsakes, and engraved family pieces.",
+    "UserId": "2"
+  },
+  {
+    "StoreName": "Calm Rituals",
+    "AvatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+    "Rating": 4.9,
+    "TotalSales": 2110,
+    "Followers": 4100,
+    "Location": "Copenhagen, Denmark",
+    "Bio": "Wellness boxes, candles, bath gifts, and slow-living self-care items.",
+    "UserId": "3"
+  },
+  {
+    "StoreName": "Northline Studio",
+    "AvatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+    "Rating": 4.6,
+    "TotalSales": 640,
+    "Followers": 980,
+    "Location": "Berlin, Germany",
+    "Bio": "Minimal leather goods, office gifts, and personalized travel items.",
+    "UserId": "4"
+  }
+]

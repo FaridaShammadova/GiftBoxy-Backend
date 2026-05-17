@@ -1,0 +1,45 @@
+﻿[
+  {
+    "Role": "buyer",
+    "Name": "Emily Johnson",
+    "Email": "emily@example.com",
+    "Password": "123456",
+    "Avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+    "Wishlist": [
+      1,
+      4,
+      10
+    ],
+    "Orders": [
+      1001,
+      1002
+    ]
+  },
+  {
+    "Role": "seller",
+    "Name": "Michael Brown",
+    "Email": "michael@example.com",
+    "Password": "123456",
+    "Avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+    "StoreName": "Northline Studio",
+    "SellerId": 1
+  },
+  {
+    "Role": "seller",
+    "Name": "Sophia Williams",
+    "Email": "sophia@example.com",
+    "Password": "123456",
+    "Avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+    "StoreName": "Bloom & Gift House",
+    "SellerId": 2
+  },
+  {
+    "Role": "seller",
+    "Name": "Daniel Smith",
+    "Email": "daniel@example.com",
+    "Password": "123456",
+    "Avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+    "StoreName": "Urban Gift Co",
+    "SellerId": 3
+  }
+]
