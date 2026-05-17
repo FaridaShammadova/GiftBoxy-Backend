@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\GiftBoxy\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|solutionrelative:giftboxy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.api\\giftboxy.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|solutionrelative:giftboxy.api\\giftboxy.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Program.cs",
+              "RelativeDocumentMoniker": "GiftBoxy.API\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Program.cs",
+              "RelativeToolTip": "GiftBoxy.API\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T17:34:07.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GiftBoxy.API",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\GiftBoxy.API.csproj",
+              "RelativeDocumentMoniker": "GiftBoxy.API\\GiftBoxy.API.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\GiftBoxy.API.csproj",
+              "RelativeToolTip": "GiftBoxy.API\\GiftBoxy.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-17T17:34:05.841Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
