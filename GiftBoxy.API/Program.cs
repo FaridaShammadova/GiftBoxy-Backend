@@ -162,11 +162,14 @@ namespace GiftBoxy.API
             //}
 
             // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseOpenApi();
-                app.UseSwaggerUi();
-            }
+            //if (app.Environment.IsDevelopment())
+            //{
+            //    app.UseOpenApi();
+            //    app.UseSwaggerUi();
+            //}
+
+            app.UseOpenApi();
+            app.UseSwaggerUi();
 
             app.Use(async (context, next) =>
             {
