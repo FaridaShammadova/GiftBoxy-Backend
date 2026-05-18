@@ -15,8 +15,6 @@ namespace GiftBoxy.Application.DTOs.Product
         public bool IsNew { get; set; }
         public string BudgetRange { get; set; }
 
-        public int SellerProfileId { get; set; }
-
         public int CategoryId { get; set; }
 
         public List<IFormFile>? Images { get; set; } = new();  // ← çox şəkil

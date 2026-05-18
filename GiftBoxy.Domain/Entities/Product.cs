@@ -16,7 +16,7 @@
         public string? Badge { get; set; }
         public string BudgetRange { get; set; }
 
-        public int SellerProfileId { get; set; }
+        public int? SellerProfileId { get; set; }
         public SellerProfile SellerProfile { get; set; }
 
         public string? UserId { get; set; }
