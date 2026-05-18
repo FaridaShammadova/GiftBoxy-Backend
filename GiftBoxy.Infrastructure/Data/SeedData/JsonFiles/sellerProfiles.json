@@ -8,7 +8,7 @@
     "Followers": 2300,
     "Location": "Portland, USA",
     "Bio": "Handmade luxury gifts, keepsakes, and engraved family pieces.",
-    "UserId": "2"
+    "UserId": "22222222-2222-2222-2222-222222222222"
   },
   {
     "StoreName": "Calm Rituals",
@@ -19,7 +19,7 @@
     "Followers": 4100,
     "Location": "Copenhagen, Denmark",
     "Bio": "Wellness boxes, candles, bath gifts, and slow-living self-care items.",
-    "UserId": "3"
+    "UserId": "33333333-3333-3333-3333-333333333333"
   },
   {
     "StoreName": "Northline Studio",
@@ -30,6 +30,6 @@
     "Followers": 980,
     "Location": "Berlin, Germany",
     "Bio": "Minimal leather goods, office gifts, and personalized travel items.",
-    "UserId": "4"
+    "UserId": "44444444-4444-4444-4444-444444444444"
   }
 ]
