@@ -189,3 +189,6 @@ C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\obj\Debug\net10.0\refint\GiftBoxy.AP
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\obj\Debug\net10.0\GiftBoxy.API.pdb
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\obj\Debug\net10.0\GiftBoxy.API.genruntimeconfig.cache
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\obj\Debug\net10.0\ref\GiftBoxy.API.dll
+C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Npgsql.dll
+C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\obj\Debug\net10.0\GiftBoxy.API.sourcelink.json

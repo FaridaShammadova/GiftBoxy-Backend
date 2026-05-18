@@ -184,6 +184,28 @@ namespace GiftBoxy.API
                 await next();
             });
 
+            app.UseExceptionHandler(errorApp =>
+            {
+                errorApp.Run(async context =>
+                {
+                    context.Response.StatusCode = 500;
+                    context.Response.ContentType = "application/json";
+
+                    var error = context.Features.Get<Microsoft.AspNetCore.Diagnostics.IExceptionHandlerFeature>();
+                    if (error != null)
+                    {
+                        await context.Response.WriteAsJsonAsync(new
+                        {
+                            message = error.Error.Message,
+                            detail = error.Error.InnerException?.Message,
+                            stack = error.Error.StackTrace
+                        });
+                    }
+                });
+            });
+
+            app.UseRouting();
+
             app.UseRouting();
 
             app.UseCors("AllowAll");
