@@ -50,6 +50,8 @@ namespace GiftBoxy.API
                     });
             });
 
+            builder.Configuration.AddJsonFile("appsettings.Production.json", optional: true);
+
             builder.Services.AddControllers();
 
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
