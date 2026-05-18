@@ -9,7 +9,10 @@ namespace GiftBoxy.Application.DTOs.Product
         public decimal? Price { get; set; }
         public decimal? OldPrice { get; set; }
         public int? StockCount { get; set; }
+        public bool? IsFeatured { get; set; }
+        public bool? IsBestSeller { get; set; }
         public bool? IsPersonalized { get; set; }
+        public bool? IsNew { get; set; }
         public string? BudgetRange { get; set; }
         public int? CategoryId { get; set; }
 

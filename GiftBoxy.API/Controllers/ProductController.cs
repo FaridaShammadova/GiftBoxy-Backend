@@ -157,12 +157,14 @@ namespace GiftBoxy.API.Controllers
                 Price = dto.Price,
                 OldPrice = dto.OldPrice,
                 StockCount = dto.StockCount,
+                IsFeatured = dto.IsFeatured,
+                IsBestSeller = dto.IsBestSeller,
                 IsPersonalized = dto.IsPersonalized,
+                IsNew = dto.IsNew,
                 BudgetRange = dto.BudgetRange,
                 CategoryId = dto.CategoryId,
                 SellerProfileId = sellerProfile.Id,
                 UserId = userId,
-                IsNew = true,
                 RecipientTags = dto.RecipientTags
                     .Select(t => new ProductRecipientTag { Name = t }).ToList(),
                 OccasionTags = dto.OccasionTags
@@ -206,7 +208,10 @@ namespace GiftBoxy.API.Controllers
             if (dto.Price.HasValue) product.Price = dto.Price.Value;
             if (dto.OldPrice.HasValue) product.OldPrice = dto.OldPrice.Value;
             if (dto.StockCount.HasValue) product.StockCount = dto.StockCount.Value;
+            if (dto.IsFeatured.HasValue) product.IsFeatured = dto.IsFeatured.Value;
+            if (dto.IsBestSeller.HasValue) product.IsBestSeller = dto.IsBestSeller.Value;
             if (dto.IsPersonalized.HasValue) product.IsPersonalized = dto.IsPersonalized.Value;
+            if (dto.IsNew.HasValue) product.IsNew = dto.IsNew.Value;
             if (dto.BudgetRange != null) product.BudgetRange = dto.BudgetRange;
             if (dto.CategoryId.HasValue) product.CategoryId = dto.CategoryId.Value;
 
