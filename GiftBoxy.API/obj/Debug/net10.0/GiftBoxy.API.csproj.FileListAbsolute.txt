@@ -3,13 +3,6 @@ C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\appsettings.json
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\GiftBoxy.API.staticwebassets.runtime.json
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\GiftBoxy.API.staticwebassets.endpoints.json
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\GiftBoxy.API.exe
-C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Infrastructure\Data\SeedData\JsonFiles\cartItems.json
-C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Infrastructure\Data\SeedData\JsonFiles\carts.json
-C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Infrastructure\Data\SeedData\JsonFiles\categories.json
-C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Infrastructure\Data\SeedData\JsonFiles\conversations.json
-C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Infrastructure\Data\SeedData\JsonFiles\messages.json
-C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Infrastructure\Data\SeedData\JsonFiles\products.json
-C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Infrastructure\Data\SeedData\JsonFiles\users.json
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\GiftBoxy.API.deps.json
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\GiftBoxy.API.runtimeconfig.json
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\GiftBoxy.API.dll
@@ -194,4 +187,3 @@ C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Npgsql.EntityFrame
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\obj\Debug\net10.0\GiftBoxy.API.sourcelink.json
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Microsoft.AspNetCore.DataProtection.EntityFrameworkCore.dll
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\CloudinaryDotNet.dll
-C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\appsettings.Production.json

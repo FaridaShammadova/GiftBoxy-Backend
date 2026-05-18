@@ -6,7 +6,6 @@ using GiftBoxy.Application.Services.Implementations;
 using GiftBoxy.Application.Services.Interfaces;
 using GiftBoxy.Domain.Entities;
 using GiftBoxy.Infrastructure.Data;
-using GiftBoxy.Infrastructure.Data.SeedData;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Identity;

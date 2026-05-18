@@ -20,44 +20,5 @@
   <ItemGroup>
     <ProjectReference Include="..\GiftBoxy.Domain\GiftBoxy.Domain.csproj" />
   </ItemGroup>
-
-	<ItemGroup>
-		<EmbeddedResource Include="Data\SeedData\JsonFiles\*.json" />
-	</ItemGroup>
-	
-	<ItemGroup>
-		<None Update="Data\SeedData\JsonFiles\categories.json">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-			<Link>Infrastructure\Data\SeedData\JsonFiles\categories.json</Link>
-		</None>
-		<None Update="Data\SeedData\JsonFiles\sellers.json">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-			<Link>Infrastructure\Data\SeedData\JsonFiles\sellerProfiles.json</Link>
-		</None>
-		<None Update="Data\SeedData\JsonFiles\users.json">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-			<Link>Infrastructure\Data\SeedData\JsonFiles\users.json</Link>
-		</None>
-		<None Update="Data\SeedData\JsonFiles\products.json">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-			<Link>Infrastructure\Data\SeedData\JsonFiles\products.json</Link>
-		</None>
-		<None Update="Data\SeedData\JsonFiles\carts.json">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-			<Link>Infrastructure\Data\SeedData\JsonFiles\carts.json</Link>
-		</None>
-		<None Update="Data\SeedData\JsonFiles\cartItems.json">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-			<Link>Infrastructure\Data\SeedData\JsonFiles\cartItems.json</Link>
-		</None>
-		<None Update="Data\SeedData\JsonFiles\conversations.json">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-			<Link>Infrastructure\Data\SeedData\JsonFiles\conversations.json</Link>
-		</None>
-		<None Update="Data\SeedData\JsonFiles\messages.json">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-			<Link>Infrastructure\Data\SeedData\JsonFiles\messages.json</Link>
-		</None>
-	</ItemGroup>
 	
 </Project>

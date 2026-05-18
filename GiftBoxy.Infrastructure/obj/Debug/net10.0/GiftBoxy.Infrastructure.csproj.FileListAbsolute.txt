@@ -1,10 +1,3 @@
-C:\Users\User\Desktop\GiftBoxy\GiftBoxy.Infrastructure\bin\Debug\net10.0\Infrastructure\Data\SeedData\JsonFiles\cartItems.json
-C:\Users\User\Desktop\GiftBoxy\GiftBoxy.Infrastructure\bin\Debug\net10.0\Infrastructure\Data\SeedData\JsonFiles\carts.json
-C:\Users\User\Desktop\GiftBoxy\GiftBoxy.Infrastructure\bin\Debug\net10.0\Infrastructure\Data\SeedData\JsonFiles\categories.json
-C:\Users\User\Desktop\GiftBoxy\GiftBoxy.Infrastructure\bin\Debug\net10.0\Infrastructure\Data\SeedData\JsonFiles\conversations.json
-C:\Users\User\Desktop\GiftBoxy\GiftBoxy.Infrastructure\bin\Debug\net10.0\Infrastructure\Data\SeedData\JsonFiles\messages.json
-C:\Users\User\Desktop\GiftBoxy\GiftBoxy.Infrastructure\bin\Debug\net10.0\Infrastructure\Data\SeedData\JsonFiles\products.json
-C:\Users\User\Desktop\GiftBoxy\GiftBoxy.Infrastructure\bin\Debug\net10.0\Infrastructure\Data\SeedData\JsonFiles\users.json
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.Infrastructure\bin\Debug\net10.0\GiftBoxy.Infrastructure.deps.json
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.Infrastructure\bin\Debug\net10.0\GiftBoxy.Infrastructure.runtimeconfig.json
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.Infrastructure\bin\Debug\net10.0\GiftBoxy.Infrastructure.dll
