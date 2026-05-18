@@ -151,6 +151,17 @@ namespace GiftBoxy.API
             {
                 var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
                 context.Database.Migrate();
+
+                try
+                {
+                    DataSeeder.Seed(context);
+                }
+                catch (Exception ex)
+                {
+                    var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
+                    logger.LogError(ex, "Seeding zamanı xəta baş verdi");
+                    throw;
+                }
             }
 
             // Configure the HTTP request pipeline.

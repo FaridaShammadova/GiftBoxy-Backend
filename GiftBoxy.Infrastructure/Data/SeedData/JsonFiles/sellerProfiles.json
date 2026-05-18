@@ -1,6 +1,7 @@
 ﻿[
   {
     "StoreName": "Luna Crafts",
+    "ShopUrl": "luna-crafts",
     "AvatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
     "Rating": 4.9,
     "TotalSales": 1240,
@@ -11,6 +12,7 @@
   },
   {
     "StoreName": "Calm Rituals",
+    "ShopUrl": "calm-rituals",
     "AvatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
     "Rating": 4.9,
     "TotalSales": 2110,
@@ -21,6 +23,7 @@
   },
   {
     "StoreName": "Northline Studio",
+    "ShopUrl": "northline-studio",
     "AvatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
     "Rating": 4.6,
     "TotalSales": 640,

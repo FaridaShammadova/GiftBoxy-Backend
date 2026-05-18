@@ -4,6 +4,7 @@
     {
         public int Id { get; set; }
         public string StoreName { get; set; }
+        public string ShopUrl { get; set; }
         public string AvatarUrl { get; set; }
         public double Rating { get; set; }
         public int TotalSales { get; set; }
