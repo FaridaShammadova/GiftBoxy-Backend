@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\GiftBoxy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|solutionrelative:giftboxy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|solutionrelative:giftboxy.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|solutionrelative:giftboxy.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCCF72D2-A345-12CC-5A21-0C0F64DF267F}|GiftBoxy.Infrastructure\\GiftBoxy.Infrastructure.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.infrastructure\\data\\seeddata\\dtos\\productseeddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCCF72D2-A345-12CC-5A21-0C0F64DF267F}|GiftBoxy.Infrastructure\\GiftBoxy.Infrastructure.csproj|solutionrelative:giftboxy.infrastructure\\data\\seeddata\\dtos\\productseeddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCCF72D2-A345-12CC-5A21-0C0F64DF267F}|GiftBoxy.Infrastructure\\GiftBoxy.Infrastructure.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.infrastructure\\data\\seeddata\\jsonfiles\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BCCF72D2-A345-12CC-5A21-0C0F64DF267F}|GiftBoxy.Infrastructure\\GiftBoxy.Infrastructure.csproj|solutionrelative:giftboxy.infrastructure\\data\\seeddata\\jsonfiles\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|solutionrelative:giftboxy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.api\\controllers\\sellerprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.api\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|solutionrelative:giftboxy.api\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCCF72D2-A345-12CC-5A21-0C0F64DF267F}|GiftBoxy.Infrastructure\\GiftBoxy.Infrastructure.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.infrastructure\\data\\seeddata\\jsonfiles\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BCCF72D2-A345-12CC-5A21-0C0F64DF267F}|GiftBoxy.Infrastructure\\GiftBoxy.Infrastructure.csproj|solutionrelative:giftboxy.infrastructure\\data\\seeddata\\jsonfiles\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,57 +78,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ImageController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\ImageController.cs",
-              "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\ImageController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\ImageController.cs",
-              "RelativeToolTip": "GiftBoxy.API\\Controllers\\ImageController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T18:24:56.882Z",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\appsettings.json",
+              "RelativeDocumentMoniker": "GiftBoxy.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\appsettings.json*",
+              "RelativeToolTip": "GiftBoxy.API\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-18T19:14:16.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ProductSeedDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Infrastructure\\Data\\SeedData\\DTOs\\ProductSeedDto.cs",
+              "RelativeDocumentMoniker": "GiftBoxy.Infrastructure\\Data\\SeedData\\DTOs\\ProductSeedDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Infrastructure\\Data\\SeedData\\DTOs\\ProductSeedDto.cs",
+              "RelativeToolTip": "GiftBoxy.Infrastructure\\Data\\SeedData\\DTOs\\ProductSeedDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T19:01:40.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SellerProfileController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\SellerProfileController.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\SellerProfileController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\SellerProfileController.cs",
               "RelativeToolTip": "GiftBoxy.API\\Controllers\\SellerProfileController.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAAAK0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAIwAAAAAAAAAAIBJwK0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-18T17:13:00.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Domain\\Entities\\Product.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Domain\\Entities\\Product.cs",
               "RelativeToolTip": "GiftBoxy.Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA3wCYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAYwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T17:10:59.598Z"
+              "WhenOpened": "2026-05-18T17:10:59.598Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "ProductCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Application\\DTOs\\Product\\ProductCreateDto.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Application\\DTOs\\Product\\ProductCreateDto.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Application\\DTOs\\Product\\ProductCreateDto.cs",
               "RelativeToolTip": "GiftBoxy.Application\\DTOs\\Product\\ProductCreateDto.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T16:56:54.281Z"
+              "WhenOpened": "2026-05-18T16:56:54.281Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -130,27 +153,27 @@
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\ProductController.cs",
               "RelativeToolTip": "GiftBoxy.API\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAFIBAAAAAAAAAAAAAFwBAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAGIBAAAAAAAAAAAqwHMBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-18T16:57:50.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "GiftBoxy.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFUAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAIBJwFUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-18T17:15:29.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Program.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Program.cs",
@@ -163,25 +186,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Application\\Services\\Interfaces\\ITokenService.cs",
-              "RelativeDocumentMoniker": "GiftBoxy.Application\\Services\\Interfaces\\ITokenService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Application\\Services\\Interfaces\\ITokenService.cs",
-              "RelativeToolTip": "GiftBoxy.Application\\Services\\Interfaces\\ITokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T18:08:30.951Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "products.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Infrastructure\\Data\\SeedData\\JsonFiles\\products.json",
               "RelativeDocumentMoniker": "GiftBoxy.Infrastructure\\Data\\SeedData\\JsonFiles\\products.json",
               "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Infrastructure\\Data\\SeedData\\JsonFiles\\products.json",
               "RelativeToolTip": "GiftBoxy.Infrastructure\\Data\\SeedData\\JsonFiles\\products.json",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-05-18T16:56:02.577Z",
               "EditorCaption": ""
@@ -189,6 +200,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\ImageController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "GiftBoxy.API\\Controllers\\ImageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T18:24:56.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Application\\Services\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "GiftBoxy.Application\\Services\\Interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Application\\Services\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "GiftBoxy.Application\\Services\\Interfaces\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T18:08:30.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Application\\Services\\Implementations\\TokenService.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Application\\Services\\Implementations\\TokenService.cs",
@@ -196,11 +233,12 @@
               "RelativeToolTip": "GiftBoxy.Application\\Services\\Implementations\\TokenService.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAuwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T18:08:36.498Z"
+              "WhenOpened": "2026-05-18T18:08:36.498Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "SellerRegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Application\\DTOs\\Auth\\SellerRegisterDto.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Application\\DTOs\\Auth\\SellerRegisterDto.cs",
@@ -208,11 +246,12 @@
               "RelativeToolTip": "GiftBoxy.Application\\DTOs\\Auth\\SellerRegisterDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T17:14:39.241Z"
+              "WhenOpened": "2026-05-18T17:14:39.241Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "SellerProfile.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Domain\\Entities\\SellerProfile.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Domain\\Entities\\SellerProfile.cs",
@@ -220,11 +259,12 @@
               "RelativeToolTip": "GiftBoxy.Domain\\Entities\\SellerProfile.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAgwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T17:11:11.428Z"
+              "WhenOpened": "2026-05-18T17:11:11.428Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "20260518175237_SellerProfileNullable.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Infrastructure\\Migrations\\20260518175237_SellerProfileNullable.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Infrastructure\\Migrations\\20260518175237_SellerProfileNullable.cs",
@@ -232,23 +272,25 @@
               "RelativeToolTip": "GiftBoxy.Infrastructure\\Migrations\\20260518175237_SellerProfileNullable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T17:52:38.104Z"
+              "WhenOpened": "2026-05-18T17:52:38.104Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "20260518173812_SellerProfileIdNullable.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Infrastructure\\Migrations\\20260518173812_SellerProfileIdNullable.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Infrastructure\\Migrations\\20260518173812_SellerProfileIdNullable.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Infrastructure\\Migrations\\20260518173812_SellerProfileIdNullable.cs",
               "RelativeToolTip": "GiftBoxy.Infrastructure\\Migrations\\20260518173812_SellerProfileIdNullable.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T17:38:13.118Z"
+              "WhenOpened": "2026-05-18T17:38:13.118Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "ProductUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Application\\DTOs\\Product\\ProductUpdateDto.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Application\\DTOs\\Product\\ProductUpdateDto.cs",
@@ -256,7 +298,8 @@
               "RelativeToolTip": "GiftBoxy.Application\\DTOs\\Product\\ProductUpdateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T16:59:45.834Z"
+              "WhenOpened": "2026-05-18T16:59:45.834Z",
+              "EditorCaption": ""
             }
           ]
         }

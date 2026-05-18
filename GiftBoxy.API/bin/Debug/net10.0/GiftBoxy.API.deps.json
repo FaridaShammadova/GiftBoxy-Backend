@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "GiftBoxy.API/1.0.0": {
         "dependencies": {
+          "CloudinaryDotNet": "1.29.1",
           "GiftBoxy.Application": "1.0.0",
           "GiftBoxy.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.8",
@@ -67,6 +68,17 @@
           "lib/net8.0/Azure.Identity.dll": {
             "assemblyVersion": "1.14.2.0",
             "fileVersion": "1.1400.225.36004"
+          }
+        }
+      },
+      "CloudinaryDotNet/1.29.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/CloudinaryDotNet.dll": {
+            "assemblyVersion": "1.29.1.0",
+            "fileVersion": "1.29.1.0"
           }
         }
       },
@@ -1091,6 +1103,13 @@
       "sha512": "sha512-YhNMwOTwT+I2wIcJKSdP0ADyB2aK+JaYWZxO8LSRDm5w77LFr0ykR9xmt2ZV5T1gaI7xU6iNFIh/yW1dAlpddQ==",
       "path": "azure.identity/1.14.2",
       "hashPath": "azure.identity.1.14.2.nupkg.sha512"
+    },
+    "CloudinaryDotNet/1.29.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JaV1JhjsvArTu1n7dzawflTGLqyNMGCEmGSNAiIlHOObqoIAh0cKIZOu5stG1CaPFgF3S1jv1Jn+vTmTqUvCNg==",
+      "path": "cloudinarydotnet/1.29.1",
+      "hashPath": "cloudinarydotnet.1.29.1.nupkg.sha512"
     },
     "FluentValidation/12.1.1": {
       "type": "package",
