@@ -42,7 +42,8 @@
               "RelativeToolTip": "GiftBoxy.API\\Hubs\\ChatHub.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAowFcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T17:55:38.69Z"
+              "WhenOpened": "2026-05-17T17:55:38.69Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -52,9 +53,10 @@
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\ChatController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\ChatController.cs",
               "RelativeToolTip": "GiftBoxy.API\\Controllers\\ChatController.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T17:55:26.021Z"
+              "WhenOpened": "2026-05-17T17:55:26.021Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -66,7 +68,8 @@
               "RelativeToolTip": "GiftBoxy.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-17T17:37:04.599Z"
+              "WhenOpened": "2026-05-17T17:37:04.599Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -76,7 +79,7 @@
               "RelativeDocumentMoniker": "GiftBoxy.API\\Program.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Program.cs",
               "RelativeToolTip": "GiftBoxy.API\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAE8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-17T17:34:07.825Z",
               "EditorCaption": ""
@@ -91,7 +94,8 @@
               "RelativeToolTip": "GiftBoxy.API\\GiftBoxy.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-17T17:34:05.841Z"
+              "WhenOpened": "2026-05-17T17:34:05.841Z",
+              "EditorCaption": ""
             }
           ]
         }
