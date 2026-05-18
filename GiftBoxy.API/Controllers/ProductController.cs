@@ -163,7 +163,7 @@ namespace GiftBoxy.API.Controllers
                 IsNew = dto.IsNew,
                 BudgetRange = dto.BudgetRange,
                 CategoryId = dto.CategoryId,
-                SellerProfileId = sellerProfile.Id,
+                SellerProfileId = dto.SellerProfileId,
                 UserId = userId,
                 RecipientTags = dto.RecipientTags
                     .Select(t => new ProductRecipientTag { Name = t }).ToList(),

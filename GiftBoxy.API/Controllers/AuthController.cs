@@ -112,7 +112,8 @@ namespace GiftBoxy.API.Controllers
 
             return Ok(new
             {
-                message = "Seller account created"
+                message = "Seller account created",
+                sellerProfileId = sellerProfile.Id
             });
         }
 
