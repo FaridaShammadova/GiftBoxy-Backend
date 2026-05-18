@@ -5,6 +5,7 @@ using GiftBoxy.Application.Repositories.Interfaces;
 using GiftBoxy.Application.Services.Implementations;
 using GiftBoxy.Application.Services.Interfaces;
 using GiftBoxy.Domain.Entities;
+using GiftBoxy.Domain.Enums;
 using GiftBoxy.Infrastructure.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.DataProtection;
@@ -19,7 +20,7 @@ namespace GiftBoxy.API
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -169,11 +170,19 @@ namespace GiftBoxy.API
 
             var app = builder.Build();
 
+
             using (var scope = app.Services.CreateScope())
             {
                 var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
                 context.Database.Migrate();
 
+                var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+                var roles = Enum.GetNames(typeof(UserRole));
+                foreach (var role in roles)
+                {
+                    if (!await roleManager.RoleExistsAsync(role))
+                        await roleManager.CreateAsync(new IdentityRole(role));
+                }
                 //try
                 //{
                 //    DataSeeder.Seed(context);
