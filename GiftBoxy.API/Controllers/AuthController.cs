@@ -85,6 +85,8 @@ namespace GiftBoxy.API.Controllers
             {
                 UserId = user.Id,
                 StoreName = dto.StoreName,
+                Bio = dto.Bio,
+                Location = dto.Location,
                 ShopUrl = dto.ShopUrl
             };
 
