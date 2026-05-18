@@ -206,8 +206,6 @@ namespace GiftBoxy.API
 
             app.UseRouting();
 
-            app.UseRouting();
-
             app.UseCors("AllowAll");
 
             app.UseStaticFiles();
