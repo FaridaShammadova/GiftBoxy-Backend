@@ -321,7 +321,10 @@ namespace GiftBoxy.API.Controllers
         {
             var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".webp" };
 
-            var uploadFolder = Path.Combine(_env.WebRootPath, "uploads", "products");
+            // WebRootPath null ola bilər — buna görə ContentRootPath istifadə et
+            var webRoot = _env.WebRootPath ?? Path.Combine(_env.ContentRootPath, "wwwroot");
+
+            var uploadFolder = Path.Combine(webRoot, "uploads", "products");
             if (!Directory.Exists(uploadFolder))
                 Directory.CreateDirectory(uploadFolder);
 
@@ -330,9 +333,7 @@ namespace GiftBoxy.API.Controllers
                 if (image.Length == 0) continue;
 
                 var extension = Path.GetExtension(image.FileName).ToLower();
-
                 if (!allowedExtensions.Contains(extension)) continue;
-
                 if (image.Length > 5 * 1024 * 1024) continue;
 
                 var fileName = $"{Guid.NewGuid()}{extension}";
@@ -352,5 +353,41 @@ namespace GiftBoxy.API.Controllers
 
             await _context.SaveChangesAsync();
         }
+
+        //private async Task UploadImages(List<IFormFile> images, int productId)
+        //{
+        //    var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".webp" };
+
+        //    var uploadFolder = Path.Combine(_env.WebRootPath, "uploads", "products");
+        //    if (!Directory.Exists(uploadFolder))
+        //        Directory.CreateDirectory(uploadFolder);
+
+        //    foreach (var image in images)
+        //    {
+        //        if (image.Length == 0) continue;
+
+        //        var extension = Path.GetExtension(image.FileName).ToLower();
+
+        //        if (!allowedExtensions.Contains(extension)) continue;
+
+        //        if (image.Length > 5 * 1024 * 1024) continue;
+
+        //        var fileName = $"{Guid.NewGuid()}{extension}";
+        //        var filePath = Path.Combine(uploadFolder, fileName);
+
+        //        using (var stream = new FileStream(filePath, FileMode.Create))
+        //        {
+        //            await image.CopyToAsync(stream);
+        //        }
+
+        //        _context.ProductImages.Add(new ProductImage
+        //        {
+        //            ProductId = productId,
+        //            ImageUrl = $"/uploads/products/{fileName}"
+        //        });
+        //    }
+
+        //    await _context.SaveChangesAsync();
+        //}
     }
 }

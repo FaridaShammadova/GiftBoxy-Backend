@@ -27,6 +27,11 @@ namespace GiftBoxy.API
             var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
             builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 
+            var webRootPath = Path.Combine(builder.Environment.ContentRootPath, "wwwroot");
+            if (!Directory.Exists(webRootPath))
+                Directory.CreateDirectory(webRootPath);
+            builder.Environment.WebRootPath = webRootPath;
+
             builder.Services.AddSignalR();
 
             // Add services to the container.
