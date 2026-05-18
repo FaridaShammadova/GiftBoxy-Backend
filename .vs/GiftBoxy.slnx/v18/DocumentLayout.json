@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\GiftBoxy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|solutionrelative:giftboxy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|solutionrelative:giftboxy.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.api\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|solutionrelative:giftboxy.api\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|solutionrelative:giftboxy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCCF72D2-A345-12CC-5A21-0C0F64DF267F}|GiftBoxy.Infrastructure\\GiftBoxy.Infrastructure.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.infrastructure\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -115,19 +111,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.Production.json",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\appsettings.Production.json",
-              "RelativeDocumentMoniker": "GiftBoxy.API\\appsettings.Production.json",
-              "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\appsettings.Production.json",
-              "RelativeToolTip": "GiftBoxy.API\\appsettings.Production.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-18T20:34:01.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "AppDbContextFactory.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Infrastructure\\Data\\AppDbContextFactory.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Infrastructure\\Data\\AppDbContextFactory.cs",
@@ -139,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "CreateOrderDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Application\\DTOs\\Order\\CreateOrderDto.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Application\\DTOs\\Order\\CreateOrderDto.cs",
@@ -151,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Coupon.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Domain\\Entities\\Coupon.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Domain\\Entities\\Coupon.cs",
@@ -163,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Domain\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Domain\\Entities\\Order.cs",
@@ -175,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Program.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Program.cs",
@@ -188,20 +171,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\appsettings.json",
               "RelativeDocumentMoniker": "GiftBoxy.API\\appsettings.json",
               "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\appsettings.json",
               "RelativeToolTip": "GiftBoxy.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-05-18T19:14:16.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "20260518194904_AddGiftMessageToOrder.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Infrastructure\\Migrations\\20260518194904_AddGiftMessageToOrder.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Infrastructure\\Migrations\\20260518194904_AddGiftMessageToOrder.cs",
@@ -213,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Infrastructure\\Data\\AppDbContext.cs",
@@ -225,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\OrderController.cs",
@@ -237,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "SellerProfileController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\SellerProfileController.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\SellerProfileController.cs",
@@ -249,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Domain\\Entities\\Product.cs",
@@ -261,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "ProductCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Application\\DTOs\\Product\\ProductCreateDto.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Application\\DTOs\\Product\\ProductCreateDto.cs",
@@ -273,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\ProductController.cs",
@@ -285,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\AuthController.cs",
@@ -297,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "ProductSeedDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Infrastructure\\Data\\SeedData\\DTOs\\ProductSeedDto.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Infrastructure\\Data\\SeedData\\DTOs\\ProductSeedDto.cs",
@@ -309,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "products.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Infrastructure\\Data\\SeedData\\JsonFiles\\products.json",
               "RelativeDocumentMoniker": "GiftBoxy.Infrastructure\\Data\\SeedData\\JsonFiles\\products.json",
@@ -321,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "ImageController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\ImageController.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\ImageController.cs",
@@ -333,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Application\\Services\\Interfaces\\ITokenService.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Application\\Services\\Interfaces\\ITokenService.cs",
@@ -345,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Application\\Services\\Implementations\\TokenService.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Application\\Services\\Implementations\\TokenService.cs",
@@ -357,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "SellerRegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Application\\DTOs\\Auth\\SellerRegisterDto.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Application\\DTOs\\Auth\\SellerRegisterDto.cs",
@@ -369,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "SellerProfile.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Domain\\Entities\\SellerProfile.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Domain\\Entities\\SellerProfile.cs",
@@ -381,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "20260518175237_SellerProfileNullable.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Infrastructure\\Migrations\\20260518175237_SellerProfileNullable.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Infrastructure\\Migrations\\20260518175237_SellerProfileNullable.cs",
@@ -393,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "20260518173812_SellerProfileIdNullable.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Infrastructure\\Migrations\\20260518173812_SellerProfileIdNullable.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Infrastructure\\Migrations\\20260518173812_SellerProfileIdNullable.cs",
@@ -405,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "ProductUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Application\\DTOs\\Product\\ProductUpdateDto.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Application\\DTOs\\Product\\ProductUpdateDto.cs",
