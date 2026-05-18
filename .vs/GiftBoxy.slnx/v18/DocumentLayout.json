@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\GiftBoxy\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|solutionrelative:giftboxy.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|c:\\users\\user\\desktop\\giftboxy\\giftboxy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|solutionrelative:giftboxy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -71,6 +75,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\appsettings.json",
+              "RelativeDocumentMoniker": "GiftBoxy.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\appsettings.json",
+              "RelativeToolTip": "GiftBoxy.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-18T05:17:19.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Program.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Program.cs",
@@ -83,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "WishlistController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\WishlistController.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\WishlistController.cs",
@@ -91,12 +108,11 @@
               "RelativeToolTip": "GiftBoxy.API\\Controllers\\WishlistController.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAAuwGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T05:02:47.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T05:02:47.981Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\WeatherForecastController.cs",
@@ -104,12 +120,11 @@
               "RelativeToolTip": "GiftBoxy.API\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T05:02:47.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T05:02:47.066Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SellerProfileController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\SellerProfileController.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\SellerProfileController.cs",
@@ -117,12 +132,11 @@
               "RelativeToolTip": "GiftBoxy.API\\Controllers\\SellerProfileController.cs",
               "ViewState": "AgIAAKEAAAAAAAAAAAAuwL8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T05:02:43.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T05:02:43.314Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ReviewController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\ReviewController.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\ReviewController.cs",
@@ -130,12 +144,11 @@
               "RelativeToolTip": "GiftBoxy.API\\Controllers\\ReviewController.cs",
               "ViewState": "AgIAAJAAAAAAAAAAAAAuwK4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T05:02:39.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T05:02:39.294Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ProductQuestionController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\ProductQuestionController.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\ProductQuestionController.cs",
@@ -143,12 +156,11 @@
               "RelativeToolTip": "GiftBoxy.API\\Controllers\\ProductQuestionController.cs",
               "ViewState": "AgIAAKEAAAAAAAAAAAAuwL8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T05:02:33.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T05:02:33.264Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\ProductController.cs",
@@ -156,12 +168,11 @@
               "RelativeToolTip": "GiftBoxy.API\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAD4BAAAAAAAAAAAAAFwBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T05:02:25.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T05:02:25.443Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\OrderController.cs",
@@ -169,12 +180,11 @@
               "RelativeToolTip": "GiftBoxy.API\\Controllers\\OrderController.cs",
               "ViewState": "AgIAAOcAAAAAAAAAAAAuwAUBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T05:02:11.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T05:02:11.524Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ImageController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\ImageController.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\ImageController.cs",
@@ -182,12 +192,11 @@
               "RelativeToolTip": "GiftBoxy.API\\Controllers\\ImageController.cs",
               "ViewState": "AgIAAE8AAAAAAAAAAAAuwG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T05:02:06.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T05:02:06.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CouponController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\CouponController.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\CouponController.cs",
@@ -195,12 +204,11 @@
               "RelativeToolTip": "GiftBoxy.API\\Controllers\\CouponController.cs",
               "ViewState": "AgIAAIMAAAAAAAAAAAAuwKEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T05:02:02.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T05:02:02.654Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ChatController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\ChatController.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\ChatController.cs",
@@ -208,12 +216,11 @@
               "RelativeToolTip": "GiftBoxy.API\\Controllers\\ChatController.cs",
               "ViewState": "AgIAAKMAAAAAAAAAAAAuwMEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T05:01:55.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T05:01:55.776Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\CategoryController.cs",
@@ -221,12 +228,11 @@
               "RelativeToolTip": "GiftBoxy.API\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAuwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T05:01:52.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T05:01:52.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\CartController.cs",
@@ -234,12 +240,11 @@
               "RelativeToolTip": "GiftBoxy.API\\Controllers\\CartController.cs",
               "ViewState": "AgIAAJIAAAAAAAAAAAAuwLAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T05:01:49.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T05:01:49.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\AuthController.cs",
@@ -247,8 +252,7 @@
               "RelativeToolTip": "GiftBoxy.API\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAPAAAAAAAAAAAAAqwA0BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T05:01:44.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T05:01:44.24Z"
             }
           ]
         }
