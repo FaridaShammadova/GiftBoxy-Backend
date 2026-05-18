@@ -147,22 +147,11 @@ namespace GiftBoxy.API
 
             var app = builder.Build();
 
-            //using (var scope = app.Services.CreateScope())
-            //{
-            //    var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-            //    context.Database.Migrate();
-
-            //    try
-            //    {
-            //        //DataSeeder.Seed(context);
-            //    }
-            //    catch (Exception ex)
-            //    {
-            //        var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
-            //        logger.LogError(ex, "Seeding zamanı xəta baş verdi");
-            //        throw; // xətanı gizlətmə
-            //    }
-            //}
+            using (var scope = app.Services.CreateScope())
+            {
+                var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+                context.Database.Migrate();
+            }
 
             // Configure the HTTP request pipeline.
             //if (app.Environment.IsDevelopment())
