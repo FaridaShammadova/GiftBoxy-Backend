@@ -140,6 +140,14 @@ namespace GiftBoxy.API
                     };
                 });
 
+            var cloudinaryConfig = builder.Configuration.GetSection("Cloudinary");
+            var account = new CloudinaryDotNet.Account(
+                cloudinaryConfig["CloudName"],
+                cloudinaryConfig["ApiKey"],
+                cloudinaryConfig["ApiSecret"]
+            );
+            builder.Services.AddSingleton(new CloudinaryDotNet.Cloudinary(account));
+
             builder.Services.AddAutoMapper(typeof(Program));
 
             builder.Services.AddValidatorsFromAssemblyContaining<Program>();

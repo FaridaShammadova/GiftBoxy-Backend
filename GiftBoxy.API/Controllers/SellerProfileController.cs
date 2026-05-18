@@ -14,11 +14,13 @@ namespace GiftBoxy.API.Controllers
     {
         private readonly AppDbContext _context;
         private readonly IWebHostEnvironment _env;
+        private readonly CloudinaryDotNet.Cloudinary _cloudinary;
 
-        public SellerProfileController(AppDbContext context, IWebHostEnvironment env)
+        public SellerProfileController(AppDbContext context, IWebHostEnvironment env, CloudinaryDotNet.Cloudinary cloudinary)
         {
             _context = context;
             _env = env;
+            _cloudinary = cloudinary;
         }
 
         // -----------------------------------------------
@@ -141,36 +143,75 @@ namespace GiftBoxy.API.Controllers
             if (file.Length > 5 * 1024 * 1024)
                 return BadRequest("File size must be less than 5MB");
 
-            // ✅ WebRootPath null-dan qorunma
-            var webRoot = _env.WebRootPath ?? Path.Combine(_env.ContentRootPath, "wwwroot");
-
-            // Köhnə avatarı sil
-            if (!string.IsNullOrEmpty(profile.Avatar))
+            using var stream = file.OpenReadStream();
+            var uploadParams = new CloudinaryDotNet.Actions.ImageUploadParams
             {
-                var oldPath = Path.Combine(webRoot, profile.Avatar.TrimStart('/'));
-                if (System.IO.File.Exists(oldPath))
-                    System.IO.File.Delete(oldPath);
-            }
+                File = new CloudinaryDotNet.FileDescription(file.FileName, stream),
+                Folder = "giftboxy/avatars"
+            };
 
-            // Yeni avatarı saxla
-            var uploadFolder = Path.Combine(webRoot, "uploads", "avatars");
-            if (!Directory.Exists(uploadFolder))
-                Directory.CreateDirectory(uploadFolder);
+            var uploadResult = await _cloudinary.UploadAsync(uploadParams);
 
-            var fileName = $"{Guid.NewGuid()}{extension}";
-            var filePath = Path.Combine(uploadFolder, fileName);
+            if (uploadResult.StatusCode != System.Net.HttpStatusCode.OK)
+                return BadRequest("Şəkil yüklənmədi");
 
-            using (var stream = new FileStream(filePath, FileMode.Create))
-            {
-                await file.CopyToAsync(stream);
-            }
-
-            profile.Avatar = $"/uploads/avatars/{fileName}";
+            profile.Avatar = uploadResult.SecureUrl.ToString();
             await _context.SaveChangesAsync();
 
             return Ok(new { avatarUrl = profile.Avatar });
         }
-        
+        //public async Task<IActionResult> UploadAvatar(IFormFile file)
+        //{
+        //    var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+        //    var profile = await _context.SellerProfiles
+        //        .FirstOrDefaultAsync(s => s.UserId == userId);
+
+        //    if (profile == null)
+        //        return NotFound();
+
+        //    if (file == null || file.Length == 0)
+        //        return BadRequest("No file uploaded");
+
+        //    var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".webp" };
+        //    var extension = Path.GetExtension(file.FileName).ToLower();
+
+        //    if (!allowedExtensions.Contains(extension))
+        //        return BadRequest("Only jpg, jpeg, png, webp files are allowed");
+
+        //    if (file.Length > 5 * 1024 * 1024)
+        //        return BadRequest("File size must be less than 5MB");
+
+        //    // ✅ WebRootPath null-dan qorunma
+        //    var webRoot = _env.WebRootPath ?? Path.Combine(_env.ContentRootPath, "wwwroot");
+
+        //    // Köhnə avatarı sil
+        //    if (!string.IsNullOrEmpty(profile.Avatar))
+        //    {
+        //        var oldPath = Path.Combine(webRoot, profile.Avatar.TrimStart('/'));
+        //        if (System.IO.File.Exists(oldPath))
+        //            System.IO.File.Delete(oldPath);
+        //    }
+
+        //    // Yeni avatarı saxla
+        //    var uploadFolder = Path.Combine(webRoot, "uploads", "avatars");
+        //    if (!Directory.Exists(uploadFolder))
+        //        Directory.CreateDirectory(uploadFolder);
+
+        //    var fileName = $"{Guid.NewGuid()}{extension}";
+        //    var filePath = Path.Combine(uploadFolder, fileName);
+
+        //    using (var stream = new FileStream(filePath, FileMode.Create))
+        //    {
+        //        await file.CopyToAsync(stream);
+        //    }
+
+        //    profile.Avatar = $"/uploads/avatars/{fileName}";
+        //    await _context.SaveChangesAsync();
+
+        //    return Ok(new { avatarUrl = profile.Avatar });
+        //}
+
         //public async Task<IActionResult> UploadAvatar(IFormFile file)
         //{
         //    var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);

@@ -4,6 +4,8 @@ namespace GiftBoxy.Domain.Entities
 {
     public class Order : BaseEntity
     {
+        public string? CouponCode { get; set; }
+        public string? GiftMessage { get; set; }
         public decimal TotalPrice { get; set; }
         public OrderStatus Status { get; set; }
         public PaymentStatus PaymentStatus { get; set; }

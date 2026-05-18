@@ -7,5 +7,6 @@ namespace GiftBoxy.Application.DTOs.Order
         public string ShippingAddress { get; set; }
         public PaymentMethod PaymentMethod { get; set; }
         public string? CouponCode { get; set; }
+        public string? GiftMessage { get; set; }
     }
 }
