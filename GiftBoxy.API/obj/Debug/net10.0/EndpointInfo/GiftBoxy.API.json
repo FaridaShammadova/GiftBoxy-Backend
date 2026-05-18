@@ -2353,6 +2353,12 @@
           "password": {
             "type": "string"
           },
+          "bio": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          },
           "shopUrl": {
             "type": "string"
           },

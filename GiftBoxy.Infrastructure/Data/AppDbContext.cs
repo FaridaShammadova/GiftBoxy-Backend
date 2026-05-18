@@ -1,16 +1,19 @@
 ﻿using GiftBoxy.Domain.Entities;
+using Microsoft.AspNetCore.DataProtection.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace GiftBoxy.Infrastructure.Data
 {
-    public class AppDbContext : IdentityDbContext<AppUser>
+    public class AppDbContext : IdentityDbContext<AppUser>, IDataProtectionKeyContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options)
             : base(options)
         {
         }
+        
 
+        public DbSet<DataProtectionKey> DataProtectionKeys { get; set; }
 
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductImage> ProductImages { get; set; }

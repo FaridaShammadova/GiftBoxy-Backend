@@ -108,6 +108,17 @@
           }
         }
       },
+      "Microsoft.AspNetCore.DataProtection.EntityFrameworkCore/10.0.8": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.8"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.DataProtection.EntityFrameworkCore.dll": {
+            "assemblyVersion": "10.0.8.0",
+            "fileVersion": "10.0.826.23019"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore/10.0.8": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "10.0.8"
@@ -1033,6 +1044,7 @@
       "GiftBoxy.Infrastructure/1.0.0": {
         "dependencies": {
           "GiftBoxy.Domain": "1.0.0",
+          "Microsoft.AspNetCore.DataProtection.EntityFrameworkCore": "10.0.8",
           "Microsoft.EntityFrameworkCore": "10.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.8",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.1"
@@ -1107,6 +1119,13 @@
       "sha512": "sha512-oGnE+X/SN6jdqao9WOkOIfyZ5+a0AtluJWy1Mxndq+kcWG6sx5k6l6tucu8/wJ7o9fHfLgVCzm/c4v/KVgVk6w==",
       "path": "microsoft.aspnetcore.authentication.jwtbearer/10.0.8",
       "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.10.0.8.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.DataProtection.EntityFrameworkCore/10.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cz0cqDr+24RkCqPs3w/z2tLgLyjTdfQtMMlzCojOKGHg/lOkGnKN22BNP83DZ2hDtGgv1nWJ5gIfcrE58Onp7Q==",
+      "path": "microsoft.aspnetcore.dataprotection.entityframeworkcore/10.0.8",
+      "hashPath": "microsoft.aspnetcore.dataprotection.entityframeworkcore.10.0.8.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore/10.0.8": {
       "type": "package",

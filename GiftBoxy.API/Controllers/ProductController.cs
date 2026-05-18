@@ -59,11 +59,14 @@ namespace GiftBoxy.API.Controllers
 
             var total = await query.CountAsync();
 
-            var products = await query
+            var productEntities = await query
+                .OrderBy(p => p.Id)
                 .Skip((page - 1) * pageSize)
                 .Take(pageSize)
-                .Select(p => MapToDto(p))
+                 .AsSplitQuery()
                 .ToListAsync();
+
+            var products = productEntities.Select(p => MapToDto(p)).ToList();
 
             return Ok(new
             {

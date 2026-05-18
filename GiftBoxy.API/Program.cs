@@ -8,6 +8,7 @@ using GiftBoxy.Domain.Entities;
 using GiftBoxy.Infrastructure.Data;
 using GiftBoxy.Infrastructure.Data.SeedData;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -27,8 +28,6 @@ namespace GiftBoxy.API
             builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 
             builder.Services.AddSignalR();
-
-            builder.WebHost.UseUrls("http://0.0.0.0:5236");
 
             // Add services to the container.
             builder.Services.AddCors(options =>
@@ -80,6 +79,10 @@ namespace GiftBoxy.API
                 options.UseNpgsql(
                     builder.Configuration.GetConnectionString("DefaultConnection"));
             });
+
+            builder.Services.AddDataProtection()
+                .PersistKeysToDbContext<AppDbContext>()
+                .SetApplicationName("GiftBoxy");
 
             builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
             {
@@ -152,16 +155,16 @@ namespace GiftBoxy.API
                 var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
                 context.Database.Migrate();
 
-                try
-                {
-                    DataSeeder.Seed(context);
-                }
-                catch (Exception ex)
-                {
-                    var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
-                    logger.LogError(ex, "Seeding zamanı xəta baş verdi");
-                    throw;
-                }
+                //try
+                //{
+                //    DataSeeder.Seed(context);
+                //}
+                //catch (Exception ex)
+                //{
+                //    var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
+                //    logger.LogError(ex, "Seeding zamanı xəta baş verdi");
+                //    throw;
+                //}
             }
 
             // Configure the HTTP request pipeline.

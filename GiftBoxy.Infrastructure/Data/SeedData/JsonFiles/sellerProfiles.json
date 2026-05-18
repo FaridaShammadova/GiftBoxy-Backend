@@ -1,5 +1,6 @@
 ﻿[
   {
+    "Id": 1,
     "StoreName": "Luna Crafts",
     "ShopUrl": "luna-crafts",
     "AvatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
@@ -11,6 +12,7 @@
     "UserId": "22222222-2222-2222-2222-222222222222"
   },
   {
+    "Id": 2,
     "StoreName": "Calm Rituals",
     "ShopUrl": "calm-rituals",
     "AvatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
@@ -22,6 +24,7 @@
     "UserId": "33333333-3333-3333-3333-333333333333"
   },
   {
+    "Id": 3,
     "StoreName": "Northline Studio",
     "ShopUrl": "northline-studio",
     "AvatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
