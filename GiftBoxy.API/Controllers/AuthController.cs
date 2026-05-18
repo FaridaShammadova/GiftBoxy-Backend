@@ -57,6 +57,8 @@ namespace GiftBoxy.API.Controllers
             if (!result.Succeeded)
                 return BadRequest(result.Errors);
 
+            await _userManager.AddToRoleAsync(user, "Seller");
+
             return Ok(new { message = "Buyer account created" });
         }
 

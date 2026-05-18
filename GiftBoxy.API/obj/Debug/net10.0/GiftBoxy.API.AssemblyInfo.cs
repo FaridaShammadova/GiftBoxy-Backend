@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GiftBoxy.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d02fc5b7bd1a1a41890b67a7ab5c2f351131fd23")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+310f108dca1a77a923a15da7cdaec2eb33a65c74")]
 [assembly: System.Reflection.AssemblyProductAttribute("GiftBoxy.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GiftBoxy.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
