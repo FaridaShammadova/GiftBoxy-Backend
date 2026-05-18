@@ -1,4 +1,5 @@
-﻿using GiftBoxy.Domain.Entities;
+﻿using CloudinaryDotNet.Actions;
+using GiftBoxy.Domain.Entities;
 using GiftBoxy.Infrastructure.Data;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -12,12 +13,12 @@ namespace GiftBoxy.API.Controllers
     public class ImageController : ControllerBase
     {
         private readonly AppDbContext _context;
-        private readonly IWebHostEnvironment _env;
+        private readonly CloudinaryDotNet.Cloudinary _cloudinary;
 
-        public ImageController(AppDbContext context, IWebHostEnvironment env)
+        public ImageController(AppDbContext context, CloudinaryDotNet.Cloudinary cloudinary)
         {
             _context = context;
-            _env = env;
+            _cloudinary = cloudinary;
         }
 
         [Authorize(Roles = "Seller")]
@@ -26,14 +27,12 @@ namespace GiftBoxy.API.Controllers
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-            // Məhsul bu seller-ə məxsusdurmu?
             var product = await _context.Products
                 .FirstOrDefaultAsync(p => p.Id == productId && p.UserId == userId);
 
             if (product == null)
                 return NotFound("Product not found");
 
-            // Fayl yoxlanışı
             if (file == null || file.Length == 0)
                 return BadRequest("No file uploaded");
 
@@ -43,32 +42,25 @@ namespace GiftBoxy.API.Controllers
             if (!allowedExtensions.Contains(extension))
                 return BadRequest("Only jpg, jpeg, png, webp files are allowed");
 
-            // Max 5MB
             if (file.Length > 5 * 1024 * 1024)
                 return BadRequest("File size must be less than 5MB");
 
-            // Qovluq yarat
-            var uploadFolder = Path.Combine(_env.WebRootPath, "uploads", "products");
-            if (!Directory.Exists(uploadFolder))
-                Directory.CreateDirectory(uploadFolder);
-
-            // Unikal fayl adı
-            var fileName = $"{Guid.NewGuid()}{extension}";
-            var filePath = Path.Combine(uploadFolder, fileName);
-
-            // Faylı saxla
-            using (var stream = new FileStream(filePath, FileMode.Create))
+            using var stream = file.OpenReadStream();
+            var uploadParams = new ImageUploadParams
             {
-                await file.CopyToAsync(stream);
-            }
+                File = new CloudinaryDotNet.FileDescription(file.FileName, stream),
+                Folder = "giftboxy/products"
+            };
 
-            // DB-yə əlavə et
-            var imageUrl = $"/uploads/products/{fileName}";
+            var uploadResult = await _cloudinary.UploadAsync(uploadParams);
+
+            if (uploadResult.StatusCode != System.Net.HttpStatusCode.OK)
+                return BadRequest("Şəkil yüklənmədi");
 
             var productImage = new ProductImage
             {
                 ProductId = productId,
-                ImageUrl = imageUrl
+                ImageUrl = uploadResult.SecureUrl.ToString()
             };
 
             _context.ProductImages.Add(productImage);
@@ -77,7 +69,7 @@ namespace GiftBoxy.API.Controllers
             return Ok(new
             {
                 id = productImage.Id,
-                imageUrl = imageUrl
+                imageUrl = productImage.ImageUrl
             });
         }
 
@@ -94,16 +86,34 @@ namespace GiftBoxy.API.Controllers
             if (image == null)
                 return NotFound();
 
-            // Diskdən sil
-            var filePath = Path.Combine(_env.WebRootPath, image.ImageUrl.TrimStart('/'));
-            if (System.IO.File.Exists(filePath))
-                System.IO.File.Delete(filePath);
+            // Cloudinary-dən sil
+            var publicId = ExtractPublicId(image.ImageUrl);
+            if (!string.IsNullOrEmpty(publicId))
+                await _cloudinary.DestroyAsync(new DeletionParams(publicId));
 
-            // DB-dən sil
             _context.ProductImages.Remove(image);
             await _context.SaveChangesAsync();
 
             return Ok(new { message = "Image deleted" });
+        }
+
+        private static string ExtractPublicId(string imageUrl)
+        {
+            // https://res.cloudinary.com/cloud/image/upload/giftboxy/products/filename.jpg
+            // → giftboxy/products/filename
+            try
+            {
+                var uri = new Uri(imageUrl);
+                var path = uri.AbsolutePath; // /cloud/image/upload/giftboxy/products/filename.jpg
+                var uploadIndex = path.IndexOf("/upload/") + "/upload/".Length;
+                var withoutVersion = path[uploadIndex..];
+                var publicId = Path.ChangeExtension(withoutVersion, null);
+                return publicId;
+            }
+            catch
+            {
+                return string.Empty;
+            }
         }
     }
 }
