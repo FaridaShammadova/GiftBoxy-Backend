@@ -81,11 +81,13 @@ namespace GiftBoxy.API
 
             builder.Services.AddDbContext<AppDbContext>(options =>
             {
-                //options.UseSqlServer(
+                var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+        ?? Environment.GetEnvironmentVariable("ConnectionStrings__DefaultConnection");
+
+                options.UseNpgsql(connectionString);
+
+                //options.UseNpgsql(
                 //    builder.Configuration.GetConnectionString("DefaultConnection"));
-               
-                options.UseNpgsql(
-                    builder.Configuration.GetConnectionString("DefaultConnection"));
             });
 
             builder.Services.AddDataProtection()
