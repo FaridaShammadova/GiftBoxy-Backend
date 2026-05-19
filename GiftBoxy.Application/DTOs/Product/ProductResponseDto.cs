@@ -19,6 +19,8 @@
         public string CategoryName { get; set; }
         public string SellerStoreName { get; set; }
 
+        public int? SellerId { get; set; }
+
         public List<string> Images { get; set; } = new();
         public List<string> RecipientTags { get; set; } = new();
         public List<string> OccasionTags { get; set; } = new();
