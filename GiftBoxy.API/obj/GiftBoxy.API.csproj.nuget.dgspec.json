@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\GiftBoxy.API.csproj": {}
+    "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.API\\GiftBoxy.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\GiftBoxy.API.csproj": {
+    "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.API\\GiftBoxy.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\GiftBoxy.API.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.API\\GiftBoxy.API.csproj",
         "projectName": "GiftBoxy.API",
-        "projectPath": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\GiftBoxy.API.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.API\\GiftBoxy.API.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.API\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -34,11 +34,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Application\\GiftBoxy.Application.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Application\\GiftBoxy.Application.csproj"
+              "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Application\\GiftBoxy.Application.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Application\\GiftBoxy.Application.csproj"
               },
-              "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Infrastructure\\GiftBoxy.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Infrastructure\\GiftBoxy.Infrastructure.csproj"
+              "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Infrastructure\\GiftBoxy.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Infrastructure\\GiftBoxy.Infrastructure.csproj"
               }
             }
           }
@@ -532,14 +532,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Application\\GiftBoxy.Application.csproj": {
+    "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Application\\GiftBoxy.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Application\\GiftBoxy.Application.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Application\\GiftBoxy.Application.csproj",
         "projectName": "GiftBoxy.Application",
-        "projectPath": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Application\\GiftBoxy.Application.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Application\\GiftBoxy.Application.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Application\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -562,11 +562,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Domain\\GiftBoxy.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Domain\\GiftBoxy.Domain.csproj"
+              "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Domain\\GiftBoxy.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Domain\\GiftBoxy.Domain.csproj"
               },
-              "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Infrastructure\\GiftBoxy.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Infrastructure\\GiftBoxy.Infrastructure.csproj"
+              "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Infrastructure\\GiftBoxy.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Infrastructure\\GiftBoxy.Infrastructure.csproj"
               }
             }
           }
@@ -911,14 +911,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Domain\\GiftBoxy.Domain.csproj": {
+    "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Domain\\GiftBoxy.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Domain\\GiftBoxy.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Domain\\GiftBoxy.Domain.csproj",
         "projectName": "GiftBoxy.Domain",
-        "projectPath": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Domain\\GiftBoxy.Domain.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Domain\\GiftBoxy.Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Domain\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1259,14 +1259,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Infrastructure\\GiftBoxy.Infrastructure.csproj": {
+    "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Infrastructure\\GiftBoxy.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Infrastructure\\GiftBoxy.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Infrastructure\\GiftBoxy.Infrastructure.csproj",
         "projectName": "GiftBoxy.Infrastructure",
-        "projectPath": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Infrastructure\\GiftBoxy.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Infrastructure\\GiftBoxy.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1289,8 +1289,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Domain\\GiftBoxy.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Domain\\GiftBoxy.Domain.csproj"
+              "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Domain\\GiftBoxy.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Domain\\GiftBoxy.Domain.csproj"
               }
             }
           }

@@ -221,6 +221,8 @@ namespace GiftBoxy.API
             app.UseAuthentication();
             app.UseAuthorization();
 
+            app.MapGet("/health", () => Results.Ok("Healthy"));
+
             app.MapControllers();
 
             app.MapHub<ChatHub>("/hubs/chat");

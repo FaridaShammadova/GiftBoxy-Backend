@@ -1067,11 +1067,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Domain\\GiftBoxy.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Domain\\GiftBoxy.Domain.csproj",
       "projectName": "GiftBoxy.Domain",
-      "projectPath": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Domain\\GiftBoxy.Domain.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Domain\\GiftBoxy.Domain.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\GiftBoxy\\GiftBoxy.Domain\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\UNI\\modelləşdirmə\\layihə\\GiftBoxy\\GiftBoxy.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
