@@ -25,15 +25,12 @@ namespace GiftBoxy.API.Controllers
         }
 
         // PUBLIC ENDPOINTS (giriş etmədən görünür)
-
         [HttpGet]
         public async Task<IActionResult> GetAll(
-            [FromQuery] int page = 1,
-            [FromQuery] int pageSize = 20,
-            [FromQuery] string? category = null,
-            [FromQuery] string? search = null,
-            [FromQuery] decimal? minPrice = null,
-            [FromQuery] decimal? maxPrice = null)
+    [FromQuery] string? category = null,
+    [FromQuery] string? search = null,
+    [FromQuery] decimal? minPrice = null,
+    [FromQuery] decimal? maxPrice = null)
         {
             var query = _context.Products
                 .Include(p => p.Images)
@@ -57,25 +54,54 @@ namespace GiftBoxy.API.Controllers
             if (maxPrice.HasValue)
                 query = query.Where(p => p.Price <= maxPrice.Value);
 
-            var total = await query.CountAsync();
-
-            var productEntities = await query
+            var products = await query
                 .OrderBy(p => p.Id)
-                .Skip((page - 1) * pageSize)
-                .Take(pageSize)
-                 .AsSplitQuery()
+                .AsSplitQuery()
                 .ToListAsync();
 
-            var products = productEntities.Select(p => MapToDto(p)).ToList();
-
-            return Ok(new
-            {
-                total,
-                page,
-                pageSize,
-                data = products
-            });
+            return Ok(products.Select(p => MapToDto(p)).ToList());
         }
+
+        //[HttpGet]
+        //public async Task<IActionResult> GetAll(
+        //    [FromQuery] string? category = null,
+        //    [FromQuery] string? search = null,
+        //    [FromQuery] decimal? minPrice = null,
+        //    [FromQuery] decimal? maxPrice = null)
+        //{
+        //    var query = _context.Products
+        //        .Include(p => p.Images)
+        //        .Include(p => p.Category)
+        //        .Include(p => p.SellerProfile)
+        //        .Include(p => p.RecipientTags)
+        //        .Include(p => p.OccasionTags)
+        //        .Include(p => p.InterestTags)
+        //        .AsQueryable();
+
+        //    if (!string.IsNullOrWhiteSpace(category))
+        //        query = query.Where(p => p.Category.Slug == category);
+
+        //    if (!string.IsNullOrWhiteSpace(search))
+        //        query = query.Where(p => p.Title.Contains(search) ||
+        //                                 p.Description.Contains(search));
+
+        //    if (minPrice.HasValue)
+        //        query = query.Where(p => p.Price >= minPrice.Value);
+
+        //    if (maxPrice.HasValue)
+        //        query = query.Where(p => p.Price <= maxPrice.Value);
+
+        //    var total = await query.CountAsync();
+
+        //    var productEntities = await query
+        //        .OrderBy(p => p.Id)
+        //         .AsSplitQuery()
+        //        .ToListAsync();
+
+        //    var products = productEntities.Select(p => MapToDto(p)).ToList();
+
+        //    return Ok(products.Select(p => MapToDto(p)).ToList());
+        //}
 
         [HttpGet("{slug}")]
         public async Task<IActionResult> GetBySlug(string slug)
