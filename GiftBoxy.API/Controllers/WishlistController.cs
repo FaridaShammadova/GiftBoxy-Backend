@@ -70,7 +70,10 @@ namespace GiftBoxy.API.Controllers
 
             if (wishlist == null)
             {
-                wishlist = new Wishlist { UserId = userId };
+                wishlist = new Wishlist {
+                    UserId = userId,
+                    WishlistItems = new List<WishlistItem>()
+                };
                 _context.Wishlists.Add(wishlist);
                 await _context.SaveChangesAsync();
             }
