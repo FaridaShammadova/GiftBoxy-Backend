@@ -303,7 +303,7 @@ namespace GiftBoxy.API.Controllers
             IsNew = p.IsNew,
             Badge = p.Badge,
             BudgetRange = p.BudgetRange,
-            SellerId = p.SellerProfileId,
+            SellerId = p.SellerProfile?.UserId,
             CategoryName = p.Category?.Name ?? "",
             SellerStoreName = p.SellerProfile?.StoreName ?? "",
             Images = p.Images?.Select(i => i.ImageUrl).ToList() ?? new(),

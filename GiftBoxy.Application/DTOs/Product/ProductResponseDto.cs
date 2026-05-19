@@ -19,7 +19,7 @@
         public string CategoryName { get; set; }
         public string SellerStoreName { get; set; }
 
-        public int? SellerId { get; set; }
+        public string? SellerId { get; set; }
 
         public List<string> Images { get; set; } = new();
         public List<string> RecipientTags { get; set; } = new();
