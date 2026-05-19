@@ -20,9 +20,7 @@ namespace GiftBoxy.API.Controllers
             _context = context;
         }
 
-        // -----------------------------------------------
         // BUYER ENDPOINTS
-        // -----------------------------------------------
 
         // Səbətdəki məhsullardan sifariş yarat
         [Authorize(Roles = "Buyer")]
@@ -180,9 +178,7 @@ namespace GiftBoxy.API.Controllers
             return Ok(new { message = "Order cancelled" });
         }
 
-        // -----------------------------------------------
         // SELLER ENDPOINTS
-        // -----------------------------------------------
 
         [Authorize(Roles = "Seller")]
         [HttpGet("seller-orders")]
@@ -234,9 +230,7 @@ namespace GiftBoxy.API.Controllers
             return Ok(new { message = "Order status updated", status = dto.Status.ToString() });
         }
 
-        // -----------------------------------------------
         // PRIVATE METODLAR
-        // -----------------------------------------------
 
         private static OrderResponseDto MapToDto(Order o) => new()
         {

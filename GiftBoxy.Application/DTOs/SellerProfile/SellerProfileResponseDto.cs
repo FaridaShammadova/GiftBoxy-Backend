@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace GiftBoxy.Application.DTOs.SellerProfile
+﻿namespace GiftBoxy.Application.DTOs.SellerProfile
 {
     public class SellerProfileResponseDto
     {
@@ -15,6 +11,7 @@ namespace GiftBoxy.Application.DTOs.SellerProfile
         public double Rating { get; set; }
         public int TotalSales { get; set; }
         public int Followers { get; set; }
+
         public List<string> Categories { get; set; } = new();
     }
 }

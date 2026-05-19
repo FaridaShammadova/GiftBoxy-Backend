@@ -19,9 +19,7 @@ namespace GiftBoxy.API.Controllers
             _context = context;
         }
 
-        // -----------------------------------------------
         // SELLER ENDPOINTS
-        // -----------------------------------------------
 
         [Authorize(Roles = "Seller")]
         [HttpPost]
@@ -123,9 +121,7 @@ namespace GiftBoxy.API.Controllers
             return Ok(new { message = "Coupon deleted" });
         }
 
-        // -----------------------------------------------
         // BUYER ENDPOINTS
-        // -----------------------------------------------
 
         [Authorize(Roles = "Buyer")]
         [HttpPost("apply")]

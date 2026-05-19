@@ -11,10 +11,12 @@ C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\AutoMapper.dll
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Azure.Core.dll
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Azure.Identity.dll
+C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\CloudinaryDotNet.dll
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\FluentValidation.dll
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Humanizer.dll
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Microsoft.AspNetCore.DataProtection.EntityFrameworkCore.dll
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -51,6 +53,8 @@ C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\NJsonSchema.dll
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\NJsonSchema.Annotations.dll
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\NJsonSchema.NewtonsoftJson.dll
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\NJsonSchema.Yaml.dll
+C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Npgsql.dll
+C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\NSwag.Annotations.dll
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\NSwag.AspNetCore.dll
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\NSwag.Core.dll
@@ -166,6 +170,7 @@ C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\obj\Debug\net10.0\GiftBoxy.API.Assem
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\obj\Debug\net10.0\GiftBoxy.API.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\obj\Debug\net10.0\GiftBoxy.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\obj\Debug\net10.0\GiftBoxy.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\obj\Debug\net10.0\GiftBoxy.API.sourcelink.json
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
@@ -182,8 +187,3 @@ C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\obj\Debug\net10.0\refint\GiftBoxy.AP
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\obj\Debug\net10.0\GiftBoxy.API.pdb
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\obj\Debug\net10.0\GiftBoxy.API.genruntimeconfig.cache
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\obj\Debug\net10.0\ref\GiftBoxy.API.dll
-C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Npgsql.dll
-C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\obj\Debug\net10.0\GiftBoxy.API.sourcelink.json
-C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\Microsoft.AspNetCore.DataProtection.EntityFrameworkCore.dll
-C:\Users\User\Desktop\GiftBoxy\GiftBoxy.API\bin\Debug\net10.0\CloudinaryDotNet.dll

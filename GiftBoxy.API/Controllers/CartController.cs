@@ -62,7 +62,8 @@ namespace GiftBoxy.API.Controllers
 
             if (cart == null)
             {
-                cart = new Cart {
+                cart = new Cart
+                {
                     UserId = userId,
                     CartItems = new List<CartItem>()
                 };

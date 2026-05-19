@@ -11,7 +11,7 @@ namespace GiftBoxy.Infrastructure.Data
             : base(options)
         {
         }
-        
+
 
         public DbSet<DataProtectionKey> DataProtectionKeys { get; set; }
 
@@ -61,12 +61,12 @@ namespace GiftBoxy.Infrastructure.Data
 
             // Decimals
             builder.Entity<Product>()
-                  .Property(x => x.Price)
-                  .HasColumnType("decimal(18,2)");
+                .Property(x => x.Price)
+                .HasColumnType("decimal(18,2)");
 
             builder.Entity<Product>()
-.Property(x => x.OldPrice)
-.HasColumnType("decimal(18,2)");
+                .Property(x => x.OldPrice)
+                .HasColumnType("decimal(18,2)");
 
             builder.Entity<Order>()
                 .Property(x => x.TotalPrice)
@@ -114,7 +114,7 @@ namespace GiftBoxy.Infrastructure.Data
                 .OnDelete(DeleteBehavior.Restrict);
 
 
-            // Product relations
+            // Product
             builder.Entity<Product>()
                .HasOne(p => p.Category)
                .WithMany(c => c.Products)
@@ -141,9 +141,9 @@ namespace GiftBoxy.Infrastructure.Data
 
             //Cart
             builder.Entity<CartItem>()
-              .HasOne(ci => ci.Cart)
-              .WithMany(c => c.CartItems)
-              .HasForeignKey(ci => ci.CartId);
+                .HasOne(ci => ci.Cart)
+                .WithMany(c => c.CartItems)
+                .HasForeignKey(ci => ci.CartId);
 
             builder.Entity<CartItem>()
                 .HasOne(ci => ci.Product)
@@ -152,17 +152,17 @@ namespace GiftBoxy.Infrastructure.Data
                 .OnDelete(DeleteBehavior.NoAction);
 
             builder.Entity<Cart>()
-    .HasOne(c => c.User)
-    .WithMany()
-    .HasForeignKey(c => c.UserId)
-    .OnDelete(DeleteBehavior.Cascade);
+                .HasOne(c => c.User)
+                .WithMany()
+                .HasForeignKey(c => c.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
 
             //Wishlist
             builder.Entity<Wishlist>()
-               .HasOne(w => w.User)
-               .WithMany(u => u.Wishlist)
-               .HasForeignKey(w => w.UserId)
-               .OnDelete(DeleteBehavior.Cascade);
+                .HasOne(w => w.User)
+                .WithMany(u => u.Wishlist)
+                .HasForeignKey(w => w.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
 
             builder.Entity<WishlistItem>()
                 .HasOne(wi => wi.Wishlist)
@@ -191,10 +191,10 @@ namespace GiftBoxy.Infrastructure.Data
 
             //ProductQuestion
             builder.Entity<ProductQuestion>()
-                 .HasOne(q => q.Product)
-                 .WithMany(p => p.Questions)
-                 .HasForeignKey(q => q.ProductId)
-                 .OnDelete(DeleteBehavior.NoAction);
+                .HasOne(q => q.Product)
+                .WithMany(p => p.Questions)
+                .HasForeignKey(q => q.ProductId)
+                .OnDelete(DeleteBehavior.NoAction);
 
             builder.Entity<ProductQuestion>()
                 .HasOne(q => q.User)
@@ -211,10 +211,10 @@ namespace GiftBoxy.Infrastructure.Data
 
             //Conversation
             builder.Entity<Conversation>()
-              .HasOne(c => c.Buyer)
-              .WithMany()
-              .HasForeignKey(c => c.BuyerId)
-              .OnDelete(DeleteBehavior.Restrict);
+                .HasOne(c => c.Buyer)
+                .WithMany()
+                .HasForeignKey(c => c.BuyerId)
+                .OnDelete(DeleteBehavior.Restrict);
 
             builder.Entity<Conversation>()
                 .HasOne(c => c.Seller)
@@ -225,14 +225,14 @@ namespace GiftBoxy.Infrastructure.Data
 
             //SellerCategory
             builder.Entity<SellerCategory>()
-    .HasOne(sc => sc.SellerProfile)
-    .WithMany(sp => sp.SellerCategories)
-    .HasForeignKey(sc => sc.SellerProfileId);
+                .HasOne(sc => sc.SellerProfile)
+                .WithMany(sp => sp.SellerCategories)
+                .HasForeignKey(sc => sc.SellerProfileId);
 
             builder.Entity<SellerCategory>()
-    .HasOne(sc => sc.Category)
-    .WithMany(c => c.SellerCategories)
-    .HasForeignKey(sc => sc.CategoryId);
+                .HasOne(sc => sc.Category)
+                .WithMany(c => c.SellerCategories)
+                .HasForeignKey(sc => sc.CategoryId);
 
 
             // Unique constraints

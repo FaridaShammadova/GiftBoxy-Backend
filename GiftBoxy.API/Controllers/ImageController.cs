@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
+using CloudinaryDotNet;
 
 namespace GiftBoxy.API.Controllers
 {
@@ -13,9 +14,9 @@ namespace GiftBoxy.API.Controllers
     public class ImageController : ControllerBase
     {
         private readonly AppDbContext _context;
-        private readonly CloudinaryDotNet.Cloudinary _cloudinary;
+        private readonly Cloudinary _cloudinary;
 
-        public ImageController(AppDbContext context, CloudinaryDotNet.Cloudinary cloudinary)
+        public ImageController(AppDbContext context, Cloudinary cloudinary)
         {
             _context = context;
             _cloudinary = cloudinary;
@@ -48,7 +49,7 @@ namespace GiftBoxy.API.Controllers
             using var stream = file.OpenReadStream();
             var uploadParams = new ImageUploadParams
             {
-                File = new CloudinaryDotNet.FileDescription(file.FileName, stream),
+                File = new FileDescription(file.FileName, stream),
                 Folder = "giftboxy/products"
             };
 

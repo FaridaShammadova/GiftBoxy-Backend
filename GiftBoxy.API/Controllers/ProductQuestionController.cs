@@ -44,9 +44,7 @@ namespace GiftBoxy.API.Controllers
             return Ok(questions);
         }
 
-        // -----------------------------------------------
         // BUYER ENDPOINTS
-        // -----------------------------------------------
 
         [Authorize(Roles = "Buyer")]
         [HttpPost]
@@ -100,9 +98,7 @@ namespace GiftBoxy.API.Controllers
             return Ok(new { message = "Question deleted" });
         }
 
-        // -----------------------------------------------
         // SELLER ENDPOINTS
-        // -----------------------------------------------
 
         [Authorize(Roles = "Seller")]
         [HttpGet("my-questions")]

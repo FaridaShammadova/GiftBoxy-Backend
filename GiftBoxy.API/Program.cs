@@ -56,7 +56,6 @@ namespace GiftBoxy.API
 
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 
-            // builder.Services
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddOpenApiDocument(options =>
             {
@@ -87,9 +86,6 @@ namespace GiftBoxy.API
         ?? Environment.GetEnvironmentVariable("ConnectionStrings__DefaultConnection");
 
                 options.UseNpgsql(connectionString);
-
-                //options.UseNpgsql(
-                //    builder.Configuration.GetConnectionString("DefaultConnection"));
             });
 
             builder.Services.AddDataProtection()
@@ -161,9 +157,7 @@ namespace GiftBoxy.API
 
             builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
-            builder.Services.AddScoped(typeof(IGenericService<>), typeof(GenericService<>));
             builder.Services.AddScoped<ITokenService, TokenService>();
-            builder.Services.AddScoped<IProductService, ProductService>();
 
             // Authorization
             builder.Services.AddAuthorization();
@@ -183,24 +177,7 @@ namespace GiftBoxy.API
                     if (!await roleManager.RoleExistsAsync(role))
                         await roleManager.CreateAsync(new IdentityRole(role));
                 }
-                //try
-                //{
-                //    DataSeeder.Seed(context);
-                //}
-                //catch (Exception ex)
-                //{
-                //    var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
-                //    logger.LogError(ex, "Seeding zamanı xəta baş verdi");
-                //    throw;
-                //}
             }
-
-            // Configure the HTTP request pipeline.
-            //if (app.Environment.IsDevelopment())
-            //{
-            //    app.UseOpenApi();
-            //    app.UseSwaggerUi();
-            //}
 
             app.UseOpenApi();
             app.UseSwaggerUi();

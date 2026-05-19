@@ -19,9 +19,7 @@ namespace GiftBoxy.API.Controllers
             _context = context;
         }
 
-        // -----------------------------------------------
         // PUBLIC ENDPOINTS
-        // -----------------------------------------------
 
         [HttpGet("product/{productId}")]
         public async Task<IActionResult> GetByProduct(int productId)
@@ -53,9 +51,7 @@ namespace GiftBoxy.API.Controllers
             });
         }
 
-        // -----------------------------------------------
         // BUYER ENDPOINTS
-        // -----------------------------------------------
 
         [Authorize(Roles = "Buyer")]
         [HttpPost]
@@ -152,9 +148,7 @@ namespace GiftBoxy.API.Controllers
             return Ok(new { message = "Review deleted" });
         }
 
-        // -----------------------------------------------
         // PRIVATE METODLAR
-        // -----------------------------------------------
 
         private async Task UpdateProductRating(int productId)
         {

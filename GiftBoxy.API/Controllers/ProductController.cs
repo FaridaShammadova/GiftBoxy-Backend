@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 using System.Text.RegularExpressions;
+using CloudinaryDotNet;
+using CloudinaryDotNet.Actions;
 
 namespace GiftBoxy.API.Controllers
 {
@@ -14,19 +16,15 @@ namespace GiftBoxy.API.Controllers
     public class ProductController : ControllerBase
     {
         private readonly AppDbContext _context;
-        private readonly IWebHostEnvironment _env;
-        private readonly CloudinaryDotNet.Cloudinary _cloudinary;
+        private readonly Cloudinary _cloudinary;
 
-        public ProductController(AppDbContext context, IWebHostEnvironment env, CloudinaryDotNet.Cloudinary cloudinary)
+        public ProductController(AppDbContext context, Cloudinary cloudinary)
         {
             _context = context;
-            _env = env;
             _cloudinary = cloudinary;
         }
 
-        // -----------------------------------------------
         // PUBLIC ENDPOINTS (giriş etmədən görünür)
-        // -----------------------------------------------
 
         [HttpGet]
         public async Task<IActionResult> GetAll(
@@ -135,9 +133,7 @@ namespace GiftBoxy.API.Controllers
             return Ok(products);
         }
 
-        // -----------------------------------------------
         // SELLER ENDPOINTS (yalnız seller üçün)
-        // -----------------------------------------------
 
         [Authorize(Roles = "Seller")]
         [HttpPost]
@@ -283,9 +279,7 @@ namespace GiftBoxy.API.Controllers
             return Ok(products);
         }
 
-        // -----------------------------------------------
         // PRIVATE METODLAR
-        // -----------------------------------------------
 
         private static ProductResponseDto MapToDto(Product p) => new()
         {
@@ -333,9 +327,9 @@ namespace GiftBoxy.API.Controllers
                 if (image.Length > 5 * 1024 * 1024) continue;
 
                 using var stream = image.OpenReadStream();
-                var uploadParams = new CloudinaryDotNet.Actions.ImageUploadParams
+                var uploadParams = new ImageUploadParams
                 {
-                    File = new CloudinaryDotNet.FileDescription(image.FileName, stream),
+                    File = new FileDescription(image.FileName, stream),
                     Folder = "giftboxy/products"
                 };
 
@@ -353,78 +347,5 @@ namespace GiftBoxy.API.Controllers
 
             await _context.SaveChangesAsync();
         }
-
-        //private async Task UploadImages(List<IFormFile> images, int productId)
-        //{
-        //    var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".webp" };
-
-        //    // WebRootPath null ola bilər — buna görə ContentRootPath istifadə et
-        //    var webRoot = _env.WebRootPath ?? Path.Combine(_env.ContentRootPath, "wwwroot");
-
-        //    var uploadFolder = Path.Combine(webRoot, "uploads", "products");
-        //    if (!Directory.Exists(uploadFolder))
-        //        Directory.CreateDirectory(uploadFolder);
-
-        //    foreach (var image in images)
-        //    {
-        //        if (image.Length == 0) continue;
-
-        //        var extension = Path.GetExtension(image.FileName).ToLower();
-        //        if (!allowedExtensions.Contains(extension)) continue;
-        //        if (image.Length > 5 * 1024 * 1024) continue;
-
-        //        var fileName = $"{Guid.NewGuid()}{extension}";
-        //        var filePath = Path.Combine(uploadFolder, fileName);
-
-        //        using (var stream = new FileStream(filePath, FileMode.Create))
-        //        {
-        //            await image.CopyToAsync(stream);
-        //        }
-
-        //        _context.ProductImages.Add(new ProductImage
-        //        {
-        //            ProductId = productId,
-        //            ImageUrl = $"/uploads/products/{fileName}"
-        //        });
-        //    }
-
-        //    await _context.SaveChangesAsync();
-        //}
-
-        //private async Task UploadImages(List<IFormFile> images, int productId)
-        //{
-        //    var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".webp" };
-
-        //    var uploadFolder = Path.Combine(_env.WebRootPath, "uploads", "products");
-        //    if (!Directory.Exists(uploadFolder))
-        //        Directory.CreateDirectory(uploadFolder);
-
-        //    foreach (var image in images)
-        //    {
-        //        if (image.Length == 0) continue;
-
-        //        var extension = Path.GetExtension(image.FileName).ToLower();
-
-        //        if (!allowedExtensions.Contains(extension)) continue;
-
-        //        if (image.Length > 5 * 1024 * 1024) continue;
-
-        //        var fileName = $"{Guid.NewGuid()}{extension}";
-        //        var filePath = Path.Combine(uploadFolder, fileName);
-
-        //        using (var stream = new FileStream(filePath, FileMode.Create))
-        //        {
-        //            await image.CopyToAsync(stream);
-        //        }
-
-        //        _context.ProductImages.Add(new ProductImage
-        //        {
-        //            ProductId = productId,
-        //            ImageUrl = $"/uploads/products/{fileName}"
-        //        });
-        //    }
-
-        //    await _context.SaveChangesAsync();
-        //}
     }
 }

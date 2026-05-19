@@ -11,6 +11,7 @@ namespace GiftBoxy.Application.DTOs.Order
         public PaymentMethod PaymentMethod { get; set; }
         public string ShippingAddress { get; set; }
         public DateTime CreatedAt { get; set; }
+
         public List<OrderItemResponseDto> Items { get; set; } = new();
     }
 }

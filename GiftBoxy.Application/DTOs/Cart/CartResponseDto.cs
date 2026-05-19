@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace GiftBoxy.Application.DTOs.Cart
+﻿namespace GiftBoxy.Application.DTOs.Cart
 {
     public class CartResponseDto
     {
         public decimal Total { get; set; }
 
         public int CartId { get; set; }
+
         public List<CartItemResponseDto> Items { get; set; } = new();
     }
 }

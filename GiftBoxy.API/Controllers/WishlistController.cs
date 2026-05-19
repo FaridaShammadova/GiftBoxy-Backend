@@ -70,7 +70,8 @@ namespace GiftBoxy.API.Controllers
 
             if (wishlist == null)
             {
-                wishlist = new Wishlist {
+                wishlist = new Wishlist
+                {
                     UserId = userId,
                     WishlistItems = new List<WishlistItem>()
                 };

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace GiftBoxy.Application.DTOs.Cart
+﻿namespace GiftBoxy.Application.DTOs.Cart
 {
     namespace GiftBoxy.Application.DTOs.Cart
     {

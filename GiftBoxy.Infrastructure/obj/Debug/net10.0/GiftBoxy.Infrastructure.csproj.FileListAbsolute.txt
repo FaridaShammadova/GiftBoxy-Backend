@@ -9,10 +9,10 @@ C:\Users\User\Desktop\GiftBoxy\GiftBoxy.Infrastructure\obj\Debug\net10.0\GiftBox
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.Infrastructure\obj\Debug\net10.0\GiftBoxy.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.Infrastructure\obj\Debug\net10.0\GiftBoxy.Infrastructure.AssemblyInfo.cs
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.Infrastructure\obj\Debug\net10.0\GiftBoxy.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\GiftBoxy\GiftBoxy.Infrastructure\obj\Debug\net10.0\GiftBoxy.Infrastructure.sourcelink.json
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.Infrastructure\obj\Debug\net10.0\GiftBoxy.FBE6319E.Up2Date
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.Infrastructure\obj\Debug\net10.0\GiftBoxy.Infrastructure.dll
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.Infrastructure\obj\Debug\net10.0\refint\GiftBoxy.Infrastructure.dll
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.Infrastructure\obj\Debug\net10.0\GiftBoxy.Infrastructure.pdb
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.Infrastructure\obj\Debug\net10.0\GiftBoxy.Infrastructure.genruntimeconfig.cache
 C:\Users\User\Desktop\GiftBoxy\GiftBoxy.Infrastructure\obj\Debug\net10.0\ref\GiftBoxy.Infrastructure.dll
-C:\Users\User\Desktop\GiftBoxy\GiftBoxy.Infrastructure\obj\Debug\net10.0\GiftBoxy.Infrastructure.sourcelink.json

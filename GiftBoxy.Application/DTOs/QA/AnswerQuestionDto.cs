@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace GiftBoxy.Application.DTOs.QA
+﻿namespace GiftBoxy.Application.DTOs.QA
 {
     public class AnswerQuestionDto
     {
