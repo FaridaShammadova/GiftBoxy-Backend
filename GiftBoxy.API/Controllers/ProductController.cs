@@ -295,6 +295,32 @@ namespace GiftBoxy.API.Controllers
         }
 
         [Authorize(Roles = "Seller")]
+        [HttpPut("{id}/images")]
+        public async Task<IActionResult> UpdateImages(int id, [FromForm] List<IFormFile> images)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            var product = await _context.Products
+                .FirstOrDefaultAsync(p => p.Id == id && p.UserId == userId);
+
+            if (product == null)
+                return NotFound();
+
+            // Köhnələri sil
+            var oldImages = await _context.ProductImages
+                .Where(i => i.ProductId == id)
+                .ToListAsync();
+
+            _context.ProductImages.RemoveRange(oldImages);
+            await _context.SaveChangesAsync();
+
+            // Yenilərini yüklə
+            await UploadImages(images, id);
+
+            return Ok(new { message = "Images updated" });
+        }
+
+        [Authorize(Roles = "Seller")]
         [HttpGet("my-products")]
         public async Task<IActionResult> GetMyProducts()
         {
