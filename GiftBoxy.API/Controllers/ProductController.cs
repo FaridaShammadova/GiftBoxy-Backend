@@ -296,7 +296,8 @@ namespace GiftBoxy.API.Controllers
 
         [Authorize(Roles = "Seller")]
         [HttpPut("{id}/images")]
-        public async Task<IActionResult> UpdateImages(int id, [FromForm] List<IFormFile> images)
+        [Consumes("multipart/form-data")]
+        public async Task<IActionResult> UpdateImages(int id, [FromForm] ImageUploadDto dto)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
@@ -306,7 +307,6 @@ namespace GiftBoxy.API.Controllers
             if (product == null)
                 return NotFound();
 
-            // Köhnələri sil
             var oldImages = await _context.ProductImages
                 .Where(i => i.ProductId == id)
                 .ToListAsync();
@@ -314,8 +314,7 @@ namespace GiftBoxy.API.Controllers
             _context.ProductImages.RemoveRange(oldImages);
             await _context.SaveChangesAsync();
 
-            // Yenilərini yüklə
-            await UploadImages(images, id);
+            await UploadImages(dto.Images, id);
 
             return Ok(new { message = "Images updated" });
         }

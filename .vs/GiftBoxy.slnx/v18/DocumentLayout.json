@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|solutionrelative:giftboxy.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0E9B463A-885A-EA9C-D3BC-EF8E550068BC}|GiftBoxy.Application\\GiftBoxy.Application.csproj|c:\\users\\user\\desktop\\uni\\modell\u0259\u015Fdirm\u0259\\layih\u0259\\giftboxy\\giftboxy.application\\dtos\\product\\imageuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E9B463A-885A-EA9C-D3BC-EF8E550068BC}|GiftBoxy.Application\\GiftBoxy.Application.csproj|solutionrelative:giftboxy.application\\dtos\\product\\imageuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|c:\\users\\user\\desktop\\uni\\modell\u0259\u015Fdirm\u0259\\layih\u0259\\giftboxy\\giftboxy.api\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F7CA1D9-6431-81BD-E4DC-781645B98CD3}|GiftBoxy.API\\GiftBoxy.API.csproj|solutionrelative:giftboxy.api\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ImageUploadDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\UNI\\modell\u0259\u015Fdirm\u0259\\layih\u0259\\GiftBoxy\\GiftBoxy.Application\\DTOs\\Product\\ImageUploadDto.cs",
+              "RelativeDocumentMoniker": "GiftBoxy.Application\\DTOs\\Product\\ImageUploadDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\UNI\\modell\u0259\u015Fdirm\u0259\\layih\u0259\\GiftBoxy\\GiftBoxy.Application\\DTOs\\Product\\ImageUploadDto.cs",
+              "RelativeToolTip": "GiftBoxy.Application\\DTOs\\Product\\ImageUploadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T19:00:58.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ImageController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\UNI\\modell\u0259\u015Fdirm\u0259\\layih\u0259\\GiftBoxy\\GiftBoxy.API\\Controllers\\ImageController.cs",
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\ImageController.cs",
@@ -38,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ProductImage.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\UNI\\modell\u0259\u015Fdirm\u0259\\layih\u0259\\GiftBoxy\\GiftBoxy.Domain\\Entities\\ProductImage.cs",
               "RelativeDocumentMoniker": "GiftBoxy.Domain\\Entities\\ProductImage.cs",
@@ -56,7 +73,7 @@
               "RelativeDocumentMoniker": "GiftBoxy.API\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\UNI\\modell\u0259\u015Fdirm\u0259\\layih\u0259\\GiftBoxy\\GiftBoxy.API\\Controllers\\ProductController.cs",
               "RelativeToolTip": "GiftBoxy.API\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAIABAAAAAAAAAAAgwJwBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcBAAAAAAAAAAAYwCsBAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-20T17:23:20.487Z",
               "EditorCaption": ""
