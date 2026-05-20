@@ -221,7 +221,7 @@ namespace GiftBoxy.API
             app.UseAuthentication();
             app.UseAuthorization();
 
-            app.MapGet("/health", () => Results.Ok("Healthy"));
+            app.MapGet("/health", () => Results.Ok("Healthy")).AllowAnonymous();
 
             app.MapControllers();
 
