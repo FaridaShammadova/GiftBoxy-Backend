@@ -43,10 +43,13 @@ namespace GiftBoxy.API
                 options.AddPolicy("AllowAll",
                     policy =>
                     {
-                        policy.WithOrigins("http://localhost:3000", "http://localhost:5173", "http://localhost:5174") // frontend URL
-      .AllowAnyHeader()
-      .AllowAnyMethod()
-      .AllowCredentials();
+                        policy.WithOrigins("http://localhost:3000",
+                                           "http://localhost:5173",
+                                           "http://localhost:5174",
+                                           "https://giftboxy-frontend.vercel.app")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod()
+                        .AllowCredentials();
                     });
             });
 
