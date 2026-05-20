@@ -262,7 +262,16 @@ namespace GiftBoxy.API.Controllers
             await _context.SaveChangesAsync();
 
             if (dto.Images != null && dto.Images.Any())
+            {
+                var oldImages = await _context.ProductImages
+                    .Where(i => i.ProductId == product.Id)
+                    .ToListAsync();
+
+                _context.ProductImages.RemoveRange(oldImages);
+                await _context.SaveChangesAsync();
+
                 await UploadImages(dto.Images, product.Id);
+            }
 
             return Ok(new { message = "Product updated" });
         }
