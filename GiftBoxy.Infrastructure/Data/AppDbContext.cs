@@ -29,6 +29,7 @@ namespace GiftBoxy.Infrastructure.Data
         public DbSet<Coupon> Coupons { get; set; }
         public DbSet<Conversation> Conversations { get; set; }
         public DbSet<Message> Messages { get; set; }
+        public DbSet<BuyerProfile> BuyerProfiles { get; set; }
         public DbSet<SellerProfile> SellerProfiles { get; set; }
         public DbSet<SellerCategory> SellerCategories { get; set; }
         public DbSet<ProductRecipientTag> ProductRecipientTags { get; set; }
@@ -83,6 +84,13 @@ namespace GiftBoxy.Infrastructure.Data
             builder.Entity<Coupon>()
                 .Property(x => x.MinimumAmount)
                 .HasColumnType("decimal(18,2)");
+
+
+            //BuyerProfile
+            builder.Entity<BuyerProfile>()
+                .HasOne(x => x.User)
+                .WithOne(x => x.BuyerProfile)
+                .HasForeignKey<BuyerProfile>(x => x.UserId);
 
 
             // SellerProfile

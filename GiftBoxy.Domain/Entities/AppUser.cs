@@ -12,7 +12,7 @@ namespace GiftBoxy.Domain.Entities
         public DateTime? RefreshTokenExpireDate { get; set; }
 
         public SellerProfile SellerProfile { get; set; }
-
+        public BuyerProfile BuyerProfile { get; set; }
         public ICollection<Product>? Products { get; set; }
         public ICollection<Review>? Reviews { get; set; }
         public ICollection<CartItem>? CartItems { get; set; }
