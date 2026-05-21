@@ -15,10 +15,12 @@ namespace GiftBoxy.API.Controllers
     public class BuyerProfileController : ControllerBase
     {
         private readonly AppDbContext _context;
+        private readonly Cloudinary _cloudinary;
 
-        public BuyerProfileController(AppDbContext context)
+        public BuyerProfileController(AppDbContext context, Cloudinary cloudinary)
         {
             _context = context;
+            _cloudinary = cloudinary;
         }
 
         [Authorize(Roles = "Buyer")]
@@ -44,6 +46,7 @@ namespace GiftBoxy.API.Controllers
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
             var profile = await _context.BuyerProfiles
+                .Include(b => b.User)
                 .FirstOrDefaultAsync(b => b.UserId == userId);
 
             if (profile == null)
@@ -56,13 +59,13 @@ namespace GiftBoxy.API.Controllers
             return Ok(new { message = "Profile updated" });
         }
 
-        private static object MapToDto(BuyerProfile b) => new
+
+        // PRIVATE METODLAR
+
+        private static BuyerProfileResponseDto MapToDto(BuyerProfile b) => new()
         {
-            b.Id,
-            b.Location,
-            b.UserId,
-            Name = b.User.Name,
-            Email = b.User.Email
+            Id = b.Id,
+            Location = b.Location
         };
     }
 }
